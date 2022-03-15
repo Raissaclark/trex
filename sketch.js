@@ -63,8 +63,9 @@ reset.visible=false
 function draw(){
   //definir a cor do plano de fundo 
   background("white");
-
-  text("pontos"+pontos,width-100,20)
+fill("black")
+textSize(20)
+  text("pontos"+pontos,width-200,20)
   if (pontos>0&&pontos%100===0) {
   somponto.play 
   }
